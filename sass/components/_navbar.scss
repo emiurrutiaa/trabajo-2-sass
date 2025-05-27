@@ -1,0 +1,25 @@
+/* nav*/
+nav {
+    background-color: #e0f7fa;
+    padding: 10px;
+    text-align: center; 
+    height: 20px;
+}
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+}
+nav li {
+    display: inline-block;
+    margin: 0 15px; }
+    nav a {
+        text-decoration: none;
+        color: #76b5c5;
+        font-weight: bold;
+        transition: color 0.3s ease;
+
+    }
+    nav a:hover {
+        color: #4a4a4a; }
