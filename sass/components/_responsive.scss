@@ -1,18 +1,47 @@
 /*full responsive*/
 
-@media ( max-width: 768px) {.bio-grid-contenedor 
-{ display: flex;  grid-template-columns: 1fr; padding: 20px; text-align: center; gap: 20px;} 
-nav li { margin: 0 5px; font-size: 12px;} 
-nav { flex-direction: column; align-items: center;}
-.texto-adm1 {  margin-left: 12px; margin-right: 12px;} h1.text-center { font-size: 30px; display: center;margin: 0 auto; }
-.titulo-bio h1 {font-size: 20px; padding: 15px 0;} .texto-bio{padding: 10px; text-align: left; margin: auto; line-height: 1.6;
-    max-width: 100%; } h1.bio-titulo{  font-size: 30px;}
-.bio-grid-contenedor { display: grid; grid-template-columns: 1fr 1fr;
+@media ( max-width: 768px)
+{.bio-grid-contenedor { 
+    display: flex; 
+    grid-template-columns: 1fr; 
+    padding: 20px; 
+    text-align: center; 
+    gap: 20px;} 
+nav li { 
+    margin: 0 5px; 
+    font-size: 12px;} 
+nav { 
+    flex-direction: column; 
+    align-items: center;}
+.texto-adm1 {  
+    margin-left: 12px; 
+    margin-right: 12px;} 
+h1.text-center { 
+    font-size: 30px;
+    display: center;
+    margin: 0 auto; }
+.titulo-bio h1 {
+    font-size: 20px; 
+    padding: 15px 0;}
+.texto-bio{
+    padding: 10px; 
+    text-align: left; 
+    margin: auto; 
+    line-height: 1.6;
+    max-width: 100%; }
+h1.bio-titulo{  
+    font-size: 30px;}
+.bio-grid-contenedor { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
     flex-direction: column;
-justify-content: center; 
+    justify-content: center; 
     padding: 20px;
     gap: 10px;}
-    .fotoyo-grid-item{ max-width: 90%;width: 250px; height: 300px;
+    .fotoyo-grid-item{ 
+        max-width: 90%;
+        width: 250px; 
+        height: 300px;
         text-align: center; }
 
 } 
